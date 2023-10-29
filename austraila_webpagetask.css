@@ -1,0 +1,555 @@
+*{
+    
+    margin: 0%;
+    background-size: cover;
+}
+
+nav{
+    
+    position: sticky;
+    height: 53px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#img1{
+    height: 50px;
+    width: 90px;
+    padding-left: 22px;
+}
+#ol1{
+    position: absolute;
+    display: flex;
+    padding-left: 380px;
+    top: 1em;
+    gap: 2em;
+    
+}
+.il1{
+    list-style: none;
+color: #004165;
+    
+}
+#img2{
+    padding-left: 64em;
+    position: absolute;
+    top: 1em;
+}
+#img3{
+    padding-left: 67em;
+    position: absolute;
+    top: 1em;
+}
+#img4{
+    padding-left: 70em;
+    position: absolute;
+    top: 1em;
+}
+#img5{
+    height: 580px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    object-fit: cover;
+}
+#img7{
+    padding-left: 120px;
+    position: absolute;
+    left: 1160px;
+    top: 13px;
+}
+#img6{
+    position: absolute;
+    left: 9%;
+    top: 190px;
+    width: 320px;
+    height: 250px;
+    
+}
+#watch{
+    
+    text-decoration: none;
+    position: absolute;
+    left: 10%;
+    top: 820%;
+    height: 2em;
+    width: 8em;
+    text-align: center;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: TABanjo-Bold,Helvetica,Arial,sans-serif;
+}
+#find{
+    display: flex;
+    text-decoration: none;
+    
+    height: 2.2em;
+    width: 13em;
+    background-color: white;
+    color: gray;
+    font-weight: bolder;
+    position: absolute;
+    top: 820%;
+    left: 25%;
+    border-radius: 10px;
+    font-family: TABanjo-Bold,Helvetica,Arial,sans-serif;
+}
+#image1{
+     position: absolute;
+     left: 90px;
+     top: 680px;
+     border-radius: 22%;
+    
+}
+#h1{
+    color:white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    font-weight: 800;
+    word-spacing: 0.5px;
+
+}
+#image2{
+    position: absolute;
+    left:540px ;
+    top:680px ;
+}
+#h2{
+    color:white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    font-weight: 800;
+    
+
+}
+#image3{
+    position: absolute;
+    left: 990px;
+    top: 680px;
+}
+#h3{
+    color:white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    font-weight: 800;
+    word-spacing: 0.5px;
+
+}
+#image4{
+    padding-top: 380px;
+    width: 1310px;
+    height: 500px;
+    padding-left: 90px;
+}
+#h4{
+    text-transform: uppercase;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 1180px;
+    left: 190px;
+    font-weight: bolder;
+    line-height: 2px;
+    font-size: 2em;
+    color: white;
+}
+#h5{
+    font-family: TABanjo,Helvetica,Arial,sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    position: absolute;
+    top: 1210px;
+    font-weight: 400;
+    left: 190px;
+    font-size: 1em;
+    color: white;
+}
+#btn1{
+    color: black;
+    cursor: pointer;
+    position:absolute;
+    right: 1060px;
+    margin-top: 650px;
+    border-radius: 7px;
+    width: 250px;
+    height: 50px;
+    background-color: orange;
+    font-weight: 700;
+    font-size: 18px;
+    
+    
+}
+#h6{
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    color: #00535e;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 1570px;
+    left: 82px;
+    font-weight: 600;
+}
+#ol2{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 47px;
+    
+    
+}
+.il{
+    border: 1px solid;
+    border-radius: 1.5rem;
+    margin-left: 0%;
+    text-align: center;
+    width: 80px;
+    color: #004165;
+    margin-top: 130px;  
+    margin-right: 1.2rem;
+    padding: 10px;
+    padding-right: 20px;
+    font-family: TABanjo-Bold,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    cursor: pointer; 
+    
+}
+#image5{
+    position: absolute;
+    top: 1720px;
+    right: 960px;
+
+}
+#image6{
+    position: absolute;
+    top: 1720px;
+    right: 490px;
+
+}
+#image7{
+    position: absolute;
+    top: 1720px;
+    right: 20px;
+
+}
+#best{
+    position: absolute;
+    top: 2050px;
+    left: 140px;
+    color: white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    font-size: 1.5em;
+}
+#ski{
+    position: absolute;
+    top: 2050px;
+    left: 580px;
+    color: white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    font-size: 1.5em;
+}
+#bri{
+    position: absolute;
+    top: 2050px;
+    left: 1050px;
+    color: white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    font-size: 1.5em;
+}
+#h7{
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    color: #00535e;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 1510px;
+    left: 5px;
+    font-weight: 600;
+}
+#ol3{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 47px;
+    top: 2130px;
+    
+    
+}
+.il2{
+    border: 1px solid;
+    border-radius: 1.5rem;
+    margin-left: 0%;
+    text-align: center;
+    width: 90px;
+    color: #004165;
+    margin-top: 130px;  
+    margin-right: 1.2rem;
+    padding: 10px;
+    padding-right: 20px;
+    font-family: TABanjo-Bold,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    cursor: pointer; 
+    text-align: center;
+    
+}
+#image8{
+    position: absolute;
+    top: 2350px;
+    right: 970px;
+
+}
+#cup{
+    position: absolute;
+    top: 2650px;
+    left: 130px;
+    color: white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    font-size: 1.5em;
+}
+#image9{
+    position: absolute;
+    top: 2350px;
+    right: 500px;
+
+}
+#back{
+    position: absolute;
+    top: 2670px;
+    left: 600px;
+    color: white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    font-size: 1.5em;
+}
+#image10{
+    position: absolute;
+    top: 2350px;
+    right: 30px;
+
+}
+#eco{
+    position: absolute;
+    top: 2670px;
+    left: 1050px;
+    color: white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    font-size: 1.5em;
+}
+#h8{
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    color: #00535e;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 2810px;
+    left: 75px;
+    font-weight: 600;
+}
+#image11{
+    position: absolute;
+    top: 2900px;
+    right: 770px;
+
+}
+#visa{
+    position: absolute;
+    top: 3270px;
+    left: 100px;
+    color: white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    font-size: 1.5em;
+}
+#image12{
+    position: absolute;
+    top: 2900px;
+    right: 80px;
+
+}
+#pack{
+    position: absolute;
+    top: 3270px;
+    left: 790px;
+    color: white;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.15;
+    font-size: 1.5em;
+}
+#aus{
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    color: #00535e;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 3350px;
+    left: 75px;
+    font-weight: 600;
+}
+#image13{
+    position: absolute;
+    top: 3430px;
+    right: 1090px;
+}
+#image14{
+    position: absolute;
+    top: 3430px;
+    right: 740px;
+
+}
+#image15{
+    position: absolute;
+    top: 3430px;
+    right: 390px;
+
+}
+#image16{
+    position: absolute;
+    top: 3430px;
+    right: 37px;
+
+}
+#image17{
+    position: absolute;
+    top: 3760px;
+    right: 1087px;
+
+}
+#image18{
+    position: absolute;
+    top: 3760px;
+    right: 740px;
+
+}
+#image19{
+    position: absolute;
+    top: 3760px;
+    right: 390px;
+
+}
+#image20{
+    position: absolute;
+    top: 3760px;
+    right: 35px;
+
+}
+#btn2{
+    position: absolute;
+    top: 4110px;
+    left: 720px;
+    background-color: #00535e;
+    height: 45px;
+    width: 109px;
+    font-family: TAPhilausophy,Helvetica,Arial,sans-serif;
+    color: white;
+    font-weight: 700;
+}
+ div {
+    background-color: #004165;
+}
+#image21{
+    position: absolute;
+    top: 20px;
+    right: 685px;
+
+}
+#section1{
+    border: 2px solid;
+    position: absolute;
+    top: 4200px;
+    width: 100%;
+    height: 650px;
+    background-color: #004165;
+    
+}
+#border{
+    position: absolute;
+    top: 190px;
+    padding-left: 120px;
+    color:silver;
+}
+#h9{
+    font-family: TABanjo,Helvetica,Arial,sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 250px;
+    font-size: 21px;
+    left: 152px;
+}
+#image22{
+    position: absolute;
+    top: 310px;
+    left: 142px;
+}
+#para{
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    font-family: TABanjo,Helvetica,Arial,sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+#more{
+    position: absolute;
+    top: 420px;
+    left: 253px;
+    color: white;
+    font-size: 1rem;
+    font-family: TABanjo,Helvetica,Arial,sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+#border1{
+    position: absolute;
+    top: 450px;
+    padding-left: 130px;
+    color:silver;
+}
+#h10{
+    position: absolute;
+    top: 490px;
+    color: white;
+    left: 150px;
+    font-size: 19px;
+    font-family: TABanjo,Helvetica,Arial,sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+}
+select{
+    position: absolute;
+    top:550px;
+    width: 189px;
+    height: 35px;
+    left: 180px;
+    text-align: center;
+    font-size: medium;
+}
+#h11{
+    position: absolute;
+    top: 493px;
+    left: 620px;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+
+}
+#face{
+    position: absolute;
+    top: 540px;
+    color: white;
+    left: 650px;
+}
+    
