@@ -1,0 +1,117 @@
+#div8{
+    background-image: url(./image6/bg.png);
+    position: absolute;
+    top: 930px;
+    left: 0px;
+    width: 100%;
+    height: 1000px;
+    text-shadow: 1px 1px 0px #fff;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+#h12{
+    position: absolute;
+    left: 520px;
+    top: 142px;
+}
+#para2{
+    position: absolute;
+    left: 430px;
+    top: 200px;
+    font-size: 24px;
+    color: rgb(174, 170, 170);
+    font-weight: 200;
+}
+#section1{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    
+}
+#h21{
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    color: rgb(34, 30, 30);
+    font-weight: 900;
+}
+#para3{
+    position: absolute;
+    top: 240px;
+    left: 60px;
+    font-size: 20px;
+    color:  #888;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+#section2{
+    position: absolute;
+    top: 300px;
+    left: 530px;
+    
+}
+#h22{
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    color: rgb(34, 30, 30);
+    font-weight: 900;
+}
+#para4{
+    position: absolute;
+    top: 240px;
+    left: 60px;
+    font-size: 20px;
+    color:  #888;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+#section3{
+    position: absolute;
+    top: 300px;
+    left: 960px;
+
+    
+}
+#h23{
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    color: rgb(34, 30, 30);
+    font-weight: 900;
+}
+#para5{
+    position: absolute;
+    top: 240px;
+    left: 60px;
+    font-size: 20px;
+    color:  #888;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+#h31{
+    position: absolute;
+    top: 730px;
+    left: 450px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #888;
+}
+#href2{
+    
+        position: absolute;
+        height: 75px;
+        width: 450px;
+        border: 2px solid;
+        top: 800px;
+        left: 500px;
+        text-decoration: none;
+        padding-top: 17px;
+        padding-left: 48px;
+        background-color:#43B3E0;
+        color: white;
+        font-size: 30px;
+        font-weight: 300;
+        border-radius: 8px;
+        background-image:url(./image6/bg.png)linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    
+}
