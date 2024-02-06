@@ -1,494 +1,139 @@
+@import url(./spotify1.css);
+@import url(./nav.css);
+@import url(./footer.css);
+svg{
+    height: 62px;
+    width: 100%;
+    color: white;
+     padding-right: 1300px;
+    padding-top: 12px; 
+    background-color: #121212;
+    z-index: 1;
+}
 
-*{
-    padding: 0%;
+
+*
+{
+    
     margin: 0%;
-}
-#image1{
-    padding-left: 120px;
-    padding-top: 18px;
-}
-#span1{
-    font-weight: bolder;
-    color: white;
-    font-size: 2.0em;
-    position: absolute;
-    top: 24px;
-    right: 1229px;
-}
-#ol1{
-    display: flex;
-    list-style: none;
-    position: absolute;
-    left: 900px;
-    bottom: 600px;
-}
-#premium{
-    color: white;
-    font-weight: 600;
-    font-size: 1.1em;
-    padding-bottom: 22px;
-}
-#support{
-    color: white;
-    padding-left: 42px;
-    font-size: 1.1em;
-    font-weight: 600;
-    padding-bottom: 12px;
-}
-#download{
-    color: white;
-    padding-left: 42px;
-    font-size: 1.1em;
-    font-weight: 600;
-}
-#ol2{
-    display: flex;
-    list-style: none;
-    position: absolute;
-    left: 1230px;
-    bottom: 600px;
-}
-#border{
-    height: 7px;
-    color: white;
-    padding-right: 64px;
-    
-}
-#sign{
-    color: white;
-    font-weight: 600;
-    font-size: 1.1em;
-    padding-bottom: 22px;
-    opacity: 0.8;
-    padding-right: 52px;
-}
-#log{
-    color: white;
-    font-weight: 600;
-    font-size: 1.1em;
-    padding-bottom:22px ;
-    padding-right: 12px;
-    opacity: 0.8;
-}
-#back{
-    background: center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);;
-}
-#svg1{
-    height: 573px;
-    width: 286px;
-    position: absolute;
-    right:1030px;
-    top: 200px;
-}
-#image2{
-    position: absolute;
-    left: 30px;
-    width: 267px;
-    height: 445px;
-    top: 268px;
-    padding-left: 10px;
+    padding: 0%;
+    box-sizing: border-box;
     
     
 }
-#play{
-    position: absolute;
-    top: 300px;
-    left: 580px;
-    font-size: 48px;
-    color: white;
-    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    font-weight: 900;
-    line-height: 1.15;
+body{
+    overflow-y: none;
+    background-color: #262222;
 }
-#btn1{
-    position: absolute;
-    top: 450px;
-    left: 590px;
-    height: 50px;
-    width: 180px;
-    border-radius: 4em;
-    color: black;
-    font-weight: 700;
-    cursor: pointer;
-}
-#spoti{
-    position: absolute;
-    top: 800px;
-    left: 590px;
-    font-weight: 900;
-    font-size:44px ;
-    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-}
-#image3{
-    position: absolute;
-    top: 920px;
-    left: 180px;
-}
-#fav{
-    position: absolute;
-    font-weight: bold;
-    font-size: 21px;
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    top: 1140px;
-    left: 170px;
-    
-}
-#fav1{
-    position: absolute;
-    top: 1180px;
-    left: 150px;
-    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-}
-#image4{
-    position: absolute;
-    top: 925px;
-    left: 480px;
-}
-#easy{
-    position: absolute;
-    font-weight: bold;
-    font-size: 21px;
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    top: 1140px;
-    left: 470px;
-    
-}
-#easy1{
-    position: absolute;
-    top: 1180px;
-    left: 450px;
-    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-}
-#image5{
-    position: absolute;
-    top: 925px;
-    left: 780px;
-}
-#make{
-    position: absolute;
-    font-weight: bold;
-    font-size: 21px;
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    top: 1140px;
-    left: 800px;
-    
-}
-#make1{
-    position: absolute;
-    top: 1180px;
-    left: 770px;
-    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-}
-#image6{
-    position: absolute;
-    top: 925px;
-    left: 1080px;
-}
-#data{
-    position: absolute;
-    font-weight: bold;
-    font-size: 21px;
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    top: 1140px;
-    left: 1080px;
-    
-}
-#data1{
-    position: absolute;
-    top: 1180px;
-    left: 1070px;
-    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-}
-#div1{
-    position: absolute;
-    top: 1420px;
-    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));   ;
-}
-#free{
-    color: white;
-    font-size: 38px;
-    font-weight: 900;
-    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    position: absolute;
-    left: 620px;
-    top: 160px;
-}
-#card{
-    color: white;
-    font-size: 39px;
-    font-weight: 900;
-    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    position: absolute;
-    left: 500px;
-    top: 220px;
-}
-#got{
-    font-size: 28px;
-    font-weight: 900;
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    position: absolute;
-    top: 1880px;
-    left: 620px;
-    color: black;
-    
-}
-#create{
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    color:black;
-    position: absolute;
-    top: 1970px;
-    left: 150px;
-    font-weight: 700;
-    height: 42px;
-    word-spacing: 0.3em;
-    text-decoration: underline;
-    
-    
-
-}
-#arrow{
-    position: absolute;
-    top: 1980px;
-    left: 520px;
-    
-    
-}
-#mode{
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    color:black;
-    position: absolute;
-    top: 2050px;
-    left: 150px;
-    font-weight: 700;
-    height: 42px;
-    word-spacing: 0.3em;
-    text-decoration: underline;
-    
-
-}
-#arrow1{
-    position: absolute;
-    top: 2060px;
-    left:620px;
-    
-}
-#music{
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    color:black;
-    position: absolute;
-    top: 2130px;
-    left: 150px;
-    font-weight: 700;
-    height: 42px;
-    word-spacing: 0.3em;
-    text-decoration: underline;
-    
-
-}
-#arrow2{
-    position: absolute;
-    top: 2140px;
-    left:680px;
-    
-}
-#find{
-    font-family:var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
-    color:black;
-    position: absolute;
-    top: 2210px;
-    left: 150px;
-    font-weight: 700;
-    height: 42px;
-    word-spacing: 0.3em;
-    text-decoration: underline;
-    
-
-}
-#arrow3{
-    position: absolute;
-    top: 2220px;
-    left:510px;
-    
-}
-#div3{
-    position: absolute;
-    top: 2420px;
-    background:url(./iamges/back2.svg)center center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
-
-}
-#ready{
-    color: white;
-    font-size: 88px;
-    font-weight: 900;
-    line-height: 1.2;
-    position: absolute;
-    left: 420px;
-    top: 140px;
-}
-#btn3{
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 700;
-    background-color: transparent;
-    border-radius: 22px;
-    position: absolute;
-    top: 260px;
-    left: 620px;
-    height: 52px;
-    width: 220px;
-    background-color: white;
-    cursor: pointer;
-}
-footer{
-    position: absolute;
-    top: 2890px;
+#div2{
+    height: 1700px;
+    width: 300px;
     background-color: black;
 }
-#image7{
-    padding-left: 120px;
-    padding-top: 80px;
-}
-#span2{
-    font-weight: bolder;
-    color: white;
-    font-size: 2.0em;
-    position: absolute;
-    top: 88px;
-    right: 1229px;
-}
-#dl1{
-    color: white;
-    position: absolute;
-    left: 390px;
-    top:99px ;
-}
-#dl2{
-    color: white;
-    position: absolute;
-    left: 580px;
-    top:99px ;
-}
-#dl3{
-    color: white;
-    position: absolute;
-    left: 790px;
-    top:99px ;
-}
-#image8{
-    position: absolute;
-    left: 1060px;
-    top: 112px;
-    border-radius:90%;
-    cursor: pointer;
-    text-decoration: underline;
-    color: white;
-}
-#image9{
-    position: absolute;
-    left: 1140px;
-    top: 112px;
-    border-radius:90%;
-    cursor: pointer;
-    text-decoration: underline;
-    color: white;
-}
-#image10{
-    position: absolute;
-    left: 1220px;
-    top: 112px;
-    border-radius:90%;
-    cursor: pointer;
-    text-decoration: underline;
-    color: white;
-}
-#ol3{
-    display: flex;
-    list-style: none;
-    position: absolute;
-    top: 390px;
-    left: 120px;
-}
-#legal{
-    color: white;
-    padding-left: 12px;
+
+#offcanvas{
+    margin-top: 90px;
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    position: fixed;
+    
     
 }
-#legal:hover{
-    color: green;
-}
-#center{
+#offcanvasLabel{
     color: white;
-    padding-left: 20px;
+    padding-right: 125px;
 }
-#center:hover{
-    color: green;
+#search{
+    color: rgb(180, 175, 175);
+    padding-left: 33px;
+    padding-top: 0px;
+    font-size: 18px;
+    font-weight: 600;
 }
-#policy{
-    color: white;
-    padding-left: 20px;
+#lib{
+    color: rgb(180,175,175);
+    font-size: 22px;
+    padding-top: 14px;
+    padding-left: 35px;
 }
-#policy:hover{
-    color: green;
-}
-#cook{
-    color: white;
-    padding-left: 20px;
-}
-#cook:hover{
-    color: green;
-}
-#ads{
-    color: white;
-    padding-left: 20px;
-}
-#ads:hover{
-    color: green;
-}
-#svg2{
+#offcanvasLabel1{
+    color: rgb(180,175,175);
+    font-size: 13px;
     position: absolute;
-    left:1260px;
-    top: 350px;
-    opacity: 0.5;
+    top: 112px;
+    left: 75px;
     
 }
-#india{
+#plus{
+    color: rgb(180, 175, 175);
     position: absolute;
-    color: white;
+    top: 170px;
+    font-size: 29px;
+    left: 29px;
+}
+#offcanvasLabel2{
+    color: rgb(180, 175, 175);
+    position: absolute;
+    top: 179px;
+    left: 70px;
+    font-size: 13px;
+    font-weight: 800;
+}
+#heart{
+    color:rgb(180, 175, 175);
+    position: absolute;
+    top: 2px;
+    left: 33px;
+}
+#offcanvasLabel3{
+    color: rgb(180, 175, 175);
+    position: absolute;
+    top: 230px;
+    font-size: 13px;
+    font-weight: 800;
+    left:70px
+}
+#content{
+    color: rgb(180, 175, 175);
     font-size: 12px;
-    top: 349px;
-    left: 1290px;
-    opacity: 0.5;
-    
+    position: absolute;
+    top: 300px;
+    left: 32px;
+    line-height: 35px;
+}
+#btn2{
+    color: white;
+    border-color: aliceblue;
+    position: absolute;
+    left: 40px;
+    top: 504px;
+    width: 102px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+#btn2 i{
+    padding-right: 62px;
+}
+#h31{
+    position: absolute;
+    top: 513px;
+    left: 72px;
+    font-size: 14px;
+    color: white;
+}
+#section1{
+    height: 156px;
+    width: 30px;
+    position: absolute;
+    left: 322px;
+    top: 123px;
+    z-index: -1;
 
 }
-#india:hover{
-    color: green;
+#main{
+    z-index: -1;
 }
-#copy{
-    position: absolute;
-    font-size: 14px;
-    top: 399px;
-    left: 1244px;
-    opacity: 0.5;
-}
-#copy:hover{
-    color: green;
-}
-#cr{
-    position: absolute;
-    font-size: 12px;
-    top: 399px;
-    left: 1264px;
-    opacity: 0.5;
-}
-#cr:hover{
-    color: green;
-}
+
+

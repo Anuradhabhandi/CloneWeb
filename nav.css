@@ -1,0 +1,91 @@
+
+#nav1{
+    position: fixed;
+    top: 0;
+    z-index: 1;   
+    border: 2px solid; 
+    height: 60px;
+    background-color: #121212;
+    width: 100%;
+}
+#ol1{
+    list-style: none;
+    position: fixed;
+    top: 0;
+}
+ #pre{
+    position: absolute;
+    left: 758px;
+    top: 14px;
+    /* background-color: #121212; */
+    color: rgb(118, 116, 116);
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+#pre:hover{
+    color: white;
+    
+}
+#sup{
+    position: absolute;
+    left: 870px;
+    top: 14px;
+    /* background-color: #121212; */
+    color: rgb(118, 116, 116);
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#sup:hover{
+    color: white;
+}
+#down{
+    position: absolute;
+    left: 970px;
+    top: 14px;
+    /* background-color: #121212; */
+    color: rgb(118, 116, 116);
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#down:hover{
+    color: white;
+}
+#bor{
+    position: absolute;
+    left: 1090px;
+     top: 19px; 
+    /* background-color: #121212; */
+    
+    color: white;
+}
+#sign{
+    position: absolute;
+    left: 1150px;
+    top: 14px;
+    /* background-color: #121212; */
+    color: rgb(118, 116, 116);
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#sign:hover{
+    color: white;
+}
+#btn1{
+    position: absolute;
+    left: 1250px;
+    top: 14px;
+    background-color: white;
+    border-radius: 10px;
+    height: 33px;
+    width: 65px;
+}
+#btn1 li{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+} 

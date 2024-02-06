@@ -1,0 +1,87 @@
+#dl1{
+    color: white;
+    position:absolute;
+    top: 1234px;
+    left: 332px;
+}
+.first{
+    color: rgb(183, 179, 179);
+    font-size: 17px;
+    font-weight: 600;
+}
+.first:hover{
+    text-decoration: underline;
+    color: white;
+}
+#dl2{
+    color: white;
+    position: absolute;
+    top: 1234px;
+    left: 562px;
+}
+#first1{
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 600;
+}
+.second{
+    color: rgb(183, 179, 179);
+    font-size: 17px;
+    font-weight: 600
+}
+.second:hover{
+    text-decoration: underline;
+    color: white;
+}
+#dl3{
+    position: absolute;
+    top: 1234px;
+    left: 800px;
+    color: white;
+}
+.third{
+    color: rgb(183, 179, 179);
+    font-size: 17px;
+    font-weight: 600;
+}
+.third:hover{
+    color: white;
+    text-decoration: underline;
+}
+#insta{
+    position: absolute;
+    top: 1234px;
+    left: 1286px;
+    color: white;
+    font-size: 20px;
+}
+#twit{
+    position: absolute;
+    top: 1234px;
+    left: 1326px;
+    color: white;
+    font-size: 20px;
+}
+#face{
+    position: absolute;
+    top: 1234px;
+    left: 1366px;
+    color: white;
+    font-size: 20px;
+}
+#h21{
+    position: absolute;
+    top: 1523px;
+    left: 333px;
+    color: #3d3b3b;
+    
+}
+#copy{
+    color: rgb(183, 179, 179);
+    position: absolute;
+    top: 1583px;
+    left: 322px;
+    font-size: 17px;
+    font-weight: 400;
+
+}
